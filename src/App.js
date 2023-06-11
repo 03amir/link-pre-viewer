@@ -10,7 +10,7 @@ function App() {
   const [url, setUrl] = useState("");
   const [details, setDetails] = useState([]);
 
-  const apiUrl = "https://linkprevieweerapi.onrender.com";  // link previewer api endpoint
+  const apiUrl = "https://linkprevieweerapi.onrender.com/api/v1";  // link previewer api endpoint
 
   function sendUrl(e) {
 
